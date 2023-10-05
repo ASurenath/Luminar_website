@@ -9,9 +9,17 @@
 }
 
 .carousel img{
-    height: 500px;
+    height: 100%;
     filter:brightness(50%);
+    min-width: 100%;
+
+
 }
+
+.carousel-item{
+    height:500px;
+}
+
 .carousel p{
     width:65%;
     text-align: Left;
