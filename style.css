@@ -9,16 +9,13 @@
 }
 
 .carousel img{
-    height: 100%;
+    height:500px;
     filter:brightness(50%);
     min-width: 100%;
     margin:auto;
 }
 
-.carousel-item{
-    height:500px;
-    margin:auto;
-}
+
 
 .carousel p{
     width:65%;
