@@ -27,6 +27,7 @@ p.small{
 .minheightfit{
     min-height: fit-content;
 }
+/* buttons */
 .btn{
     background-color: rgb(94, 6, 138);
     border:none;
@@ -54,7 +55,7 @@ p.small{
     border:solid 2px rgb(94, 6, 138) ;
     color: rgb(94, 6, 138);
 }
-
+/* carousel */
 .carousel img{
     height:500px;
     filter:brightness(50%);
@@ -79,6 +80,11 @@ p.small{
     background-color: white;
     width:100%;
 }
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    width: 3vw;
+    height: 3vw;
+  }
+
 @media(max-width:600px){
     .btn{
         font-size: smaller;
