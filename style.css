@@ -14,9 +14,6 @@
     min-width: 100%;
     margin:auto;
 }
-
-
-
 .carousel p{
     width:65%;
     text-align: Left;
@@ -45,17 +42,16 @@
     .carousel p{
         width:100%;
         font-size:smaller;
-    }
-    
+    }   
 }
 
 
 /* trying to do animation */
-
 .carousel p,.carousel h1{
     animation: anim1 1s ease 0.2s 1;
 }
 @keyframes anim1{
+
      0%{transform: translateY(500px);
 
     }
