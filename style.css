@@ -1,120 +1,209 @@
-div img{
-    height:100%;
+/* .placeholder{
+    height:400px;
+} */
+.whatsapp {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72, 156, 72);
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+    padding-top: 7px;
+    z-index:10;
 }
-h1,h2,h3,h4,h5{
+.pageup {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    height: 40px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.671);
+    z-index:10;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer,
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: Arial, Helvetica, sans-serif;
 }
-.purplebg{
+
+.purplebg {
     background-color: rgb(94, 6, 138);
     margin-top: 0%;
 }
-.purplebg p{
-    color:white;  
+
+.purplebg p {
+    color: white;
     font-size: small;
-    margin:5px;
+    margin: 5px;
 }
-p.small{
+
+.author {
+    font-weight: bold;
+    color: purple;
+}
+
+.authorinfo {
+    color: grey;
+}
+
+p.small {
     font-size: small;
 }
-.purplebg a{
+
+.purplebg a {
     text-decoration: none;
     color: white;
 }
-.hovershadow:hover{
+
+.hovershadow:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     transform: translateY(-1px);
 }
-.minheightfit{
+
+.minheightfit {
     min-height: fit-content;
 }
+
 /* buttons */
-.btn{
+.btn {
     background-color: rgb(94, 6, 138);
-    border:none;
-    transition: 0.5s ;
+    border: none;
+    transition: 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(137, 98, 189);
 }
-.hollowbtn{
+
+.hollowbtn {
     background-color: white;
-    border:solid 2px rgb(94, 6, 138) ;
-    color:rgb(94, 6, 138) ;    
-}
-.hollowbtn:hover{
-    background-color:  rgb(94, 6, 138);
-    border:solid 2px rgb(94, 6, 138) ;
-    color: white;
-}
-.solidbtn{
-    background-color:  rgb(94, 6, 138);
-    border:solid 2px rgb(94, 6, 138) ;
-}
-.solidbtn:hover{
-    background-color: white;
-    border:solid 2px rgb(94, 6, 138) ;
+    border: solid 2px rgb(94, 6, 138);
     color: rgb(94, 6, 138);
 }
-/* carousel */
-.carousel img{
-    height:500px;
-    filter:brightness(50%);
-    min-width: 100%;
-    margin:auto;
+
+.hollowbtn:hover {
+    background-color: rgb(94, 6, 138);
+    border: solid 2px rgb(94, 6, 138);
+    color: white;
 }
-.carousel p{
-    width:65%;
+
+.solidbtn {
+    background-color: rgb(94, 6, 138);
+    border: solid 2px rgb(94, 6, 138);
+}
+
+.solidbtn:hover {
+    background-color: white;
+    border: solid 2px rgb(94, 6, 138);
+    color: rgb(94, 6, 138);
+}
+
+/* carousel */
+.carousel img {
+    height: 500px;
+    filter: brightness(50%);
+    min-width: 100%;
+    margin: auto;
+}
+
+.carousel-caption {
+    /* position: relative; */
+    top: 1.30em;
+    left: 10%;
+    right: 5%;
+}
+
+.rltv {
+    position: relative;
+    margin: 5px;
+    padding: 0%;
+    width: 100%;
+}
+
+.rltv p {
+    margin: 0px;
+}
+
+.carousel p {
+    width: 65%;
     text-align: Left;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.carousel h1{
-    font-size:4vw;
-    font-weight:600;
+
+.carousel h1 {
+    font-size: 4vw;
+    font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.noborder{
-    border:0;
-    outline:0;
+.noborder {
+    border: 0;
+    outline: 0;
     background-color: white;
-    width:100%;
+    width: 100%;
 }
-.carousel-control-prev-icon,.carousel-control-next-icon {
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     width: 3vw;
     height: 3vw;
-  }
+}
 
-@media(max-width:600px){
-    .btn{
+@media(max-width:600px) {
+    .btn {
         font-size: smaller;
     }
-    .carousel h1{
-        font-size:7vw;
+
+    .carousel h1 {
+        font-size: 7vw;
     }
-    .carousel p{
-        width:100%;
-        font-size:smaller;
-    }   
+
+    .carousel p {
+        width: 100%;
+        font-size: smaller;
+    }
 }
 
 
 /* trying to do animation */
-.carousel p,.carousel h1{
+.carousel .up {
     animation: anim1 1s ease 0.2s 1;
 }
-@keyframes anim1{
 
-     0%{transform: translateY(500px);
+@keyframes anim1 {
+
+    0% {
+        transform: translateY(500px);
 
     }
-    100%{transform: translateY(0);
+
+    100% {
+        transform: translateY(0);
 
     }
 }
-.purple{
-    color:  rgb(94, 6, 138);
+
+.purple {
+    color: rgb(94, 6, 138);
 }
-.light{
+
+.light {
     color: rgb(137, 98, 189);
 }
